@@ -6,7 +6,7 @@
   $window.on('load', function() {
     // Preloader
     $('.loader').fadeOut();
-    $('.loader-mask').delay(100).fadeOut('slow');
+    $('.loader-mask').delay(30).fadeOut('slow');
 
     $window.trigger("resize");
   });
